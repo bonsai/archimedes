@@ -1,0 +1,27 @@
+version: 1
+namespace: bonsai.asset
+kinds:
+  - repository
+  - code
+  - documentation
+  - workflow
+  - config
+  - notebook
+  - script
+  - prompt
+  - gist
+  - file
+lifecycle:
+  - permanent
+  - reusable
+  - experimental
+  - ephemeral
+  - archived
+properties:
+  id: string
+  name: string
+  repository: string
+  path: string
+  language: string
+  terms: list[string]
+  metadata: object
