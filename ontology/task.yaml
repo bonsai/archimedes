@@ -1,0 +1,21 @@
+version: 1
+namespace: bonsai.task
+required:
+  - id
+  - objective
+  - evidence
+  - affected_assets
+  - priority
+  - executor
+  - acceptance
+execution:
+  observer: archimedes
+  executor: gh-aw
+  specialist: specialist-agent
+states:
+  - proposed
+  - approved
+  - executing
+  - completed
+  - rejected
+  - superseded
