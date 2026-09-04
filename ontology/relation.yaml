@@ -1,0 +1,24 @@
+version: 1
+namespace: bonsai.relation
+predicates:
+  related_to:
+    symmetric: true
+    evidence: required
+  belongs_to_context:
+    symmetric: false
+    evidence: required
+  implements:
+    symmetric: false
+    evidence: required
+  generates:
+    symmetric: false
+    evidence: required
+  depends_on:
+    symmetric: false
+    evidence: required
+  supersedes:
+    symmetric: false
+    evidence: required
+  derived_from:
+    symmetric: false
+    evidence: required
